@@ -3,6 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <title>Collections</title>
+<script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
+</head>
 <body>
 
 <h1>Math Mammoth</h1>
@@ -28,6 +30,13 @@
 <input type="text" name="subject">
 <br><br>
 </form>
+
+<form action="action_page.php" method="get">
+Age group:
+<input type="range" name="age-min" id="age-min" value="7" min="0" max="20">
+<input type="range" name="age-max" id="age-max" value="20" min="0" max="1000">
+</form>
+</div>
 
 </body>
 </html>
