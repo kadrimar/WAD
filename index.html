@@ -46,5 +46,34 @@ Age group:
 <br><br>
 </form>
 
+<form action="action_page.php">
+<label for="input">Tags:</label>
+<input type="text" name="subject">
+<br><br>
+</form>
+
+<form action="action_page.php">
+<label for="textarea">Level of<br> engagement:</label>
+<select name="subjects">
+<option value="Consumption">Consumption</option>
+<option value="Reaction">Reaction</option>
+<option value="Interaction">Interaction</option>
+</select>
+<br><br>
+</form>
+
+<canvas id="myCanvas" width="525" height="1">
+</canvas>
+
+<script>
+
+var canvas = document.getElementById("myCanvas");
+var ctx = canvas.getContext("2d");
+ctx.moveTo(0,0);
+ctx.lineTo(525,0);
+ctx.stroke();
+
+</script>
+
 </body>
 </html>
