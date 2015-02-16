@@ -3,7 +3,6 @@
 <head>
 <meta charset="UTF-8">
 <title>Collections</title>
-<script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
 </head>
 <body>
 
@@ -34,9 +33,18 @@
 <form action="action_page.php" method="get">
 Age group:
 <input type="range" name="age-min" id="age-min" value="7" min="0" max="20">
-<input type="range" name="age-max" id="age-max" value="20" min="0" max="1000">
 </form>
 </div>
+
+<form action="action_page.php">
+<label for="textarea">License:</label>
+<select name="subjects">
+<option value="All rights reserved">All rights reserved</option>
+<option value="Attribution alone">Attribution alone</option>
+<option value="Attribution + NoDerivatives">Attribution + NoDerivatives</option>
+</select>
+<br><br>
+</form>
 
 </body>
 </html>
